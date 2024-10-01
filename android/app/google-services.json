@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414975106996",
+    "project_id": "mofiloapp-3f175",
+    "storage_bucket": "mofiloapp-3f175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414975106996:android:2efdc93b2a9ddef07d9ce1",
+        "android_client_info": {
+          "package_name": "mofilo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClTDn7WZrxXWtYrX1l5AiH3HqNdipEPts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414975106996:android:dfec59881e5d8e397d9ce1",
+        "android_client_info": {
+          "package_name": "mofilo.app.ios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClTDn7WZrxXWtYrX1l5AiH3HqNdipEPts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
