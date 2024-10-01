@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mobileapp_setup/features/auth/presentation/controller/auth_controller.dart';
+import 'package:mobileapp_setup/features/auth/presentation/page/signup_page.dart';
 
 class LoginPage extends ConsumerWidget {
   const LoginPage({super.key});
@@ -105,6 +106,21 @@ class LoginFormState extends ConsumerState<LoginForm> {
               onPressed: () {
               },
               child: const Text('Forgot Password?'),
+            ),
+            const SizedBox(height: 16),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text("Don't have an account?"),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const SignUpPage()),
+                    );
+                  },
+                  child: const Text('Sign Up'),
+                ),
+              ],
             ),
           ],
         ),
